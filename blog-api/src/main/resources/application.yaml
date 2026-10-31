@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: blog-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/blogdb
+    username: root
+    password: Manoj@23
+  jpa:
+    hibernate:
+      ddl-auto: update

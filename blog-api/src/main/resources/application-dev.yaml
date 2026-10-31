@@ -1,0 +1,17 @@
+server:
+  port: 9091
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: blog-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/blogdb
+    username: root
+    password: Manoj@23
+  jpa:
+    hibernate:
+      ddl-auto: update
+  banner:
+    location: banners/dev.txt
